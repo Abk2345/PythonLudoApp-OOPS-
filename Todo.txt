@@ -1,0 +1,15 @@
+# pieces -> color -> 0:Red, 1:Green, 2:Blue, 3:Yellow, intital position -> cell, start position -> cell, end position -> cell, reserved cells-> []
+# start_pos, home_pos, direction_map, started_tokens, reached_tokens
+
+# Project Outline
+# step 1: first -> board with safe cells
+# step 2: LudoGame methods -> start a game with num_players, make players -> make 4 tokens for each player
+# Methods in LudoGame: init, start_game, make_turn, check_win, switch_player
+# Methods in Player: init, make_move(token_id), kill_token(token_id), check valid move for entered tokens, has won
+# Methods in Token: init, move(tokenid, playerid, board) -> move2, finddirection,, is_home for tokens
+# Methods in Board: init, remove_piece_position, update_piece_position, print_board, print pieces 
+
+# Error Handling 
+# Testing
+# Corner Cases
+# Edge Cases
